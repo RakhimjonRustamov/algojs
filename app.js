@@ -1,4 +1,5 @@
-"use strict";
+// noinspection JSUnresolvedFunction
+
 const twoSum = require('./lessons/lesson1TwoSum');
 const validateSequence = require('./lessons/lesson2validateSeq');
 const sortedSquaredArray = require('./lessons/lesson3sortedSquaredArray');
