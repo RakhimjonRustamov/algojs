@@ -113,6 +113,11 @@ to get only 3 keys but if we had an array we would itrate 3 times.
 2. if data length 500 then we need to itrate 500 times even worse
 3. Moreover, there is no order so it returns values in diffrent order. 
 So when it comes to method like an keys then Objects are not the best Option  
+*/
+
+/* 
+Linked List 
+
 
 
 

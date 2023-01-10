@@ -1,4 +1,4 @@
-const removeElement = function(nums, val) {
+function removeElement(nums, val) {
     let elementCounter = 0;
     for(let i=0; i<nums.length; i++) {
         if(nums[i] !== val) {
@@ -6,7 +6,8 @@ const removeElement = function(nums, val) {
             elementCounter++;
         }
     }
-    console.log(nums);
+
+    console.log(nums)
     return elementCounter;
 }
 
@@ -23,6 +24,12 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 Test case 2
 Input: nums = [0,1,2,2,3,0,4,2], val = 2
 Output: 5, nums = [ 0, 1, 3, 0, 4,_,_,_]
+*/
+
+/*
+Solution
+Time O(n)
+Space O(1)
 */
 
 console.log(removeElement([0,1,2,2,3,0,4,2],2));

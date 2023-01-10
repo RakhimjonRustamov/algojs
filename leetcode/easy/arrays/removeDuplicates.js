@@ -1,11 +1,12 @@
 var removeDuplicates = function(nums) {
     let counter = 1;
     for(let i=1; i<nums.length; i++) {
-        if(nums[i] !== nums[i-1]) {
+        if(nums[i] !== nums[i-1]) { //1,1,2 -> 1,2,2
             nums[counter] = nums[i]
             counter++;
         }
     }
+    console.log(nums);
     return counter;
 };
 
@@ -26,4 +27,4 @@ Solution
 Time O(n)
 Space O(1)
  */
-console.log(removeDuplicates([1,1,2]));
+console.log(removeDuplicates([1,1,2,2,3,3,4,4,4]));
